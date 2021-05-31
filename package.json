@@ -1,0 +1,15 @@
+{
+  "name": "challenge2",
+  "version": "1.0.0",
+  "description": "Wizeline Academy - Challenge 2: Back End Test automation using Postman and Newman",
+  "main": "index.js",
+  "scripts": {
+    "backend-test-all": "npx newman run API/collection/SP_API.postman_collection.json -e API/envVariables/UAT_ENV.postman_environment.json -g API/envVariables/globals.postman_globals.json -r htmlextra --reporter-htmlextra-export API/reports --env-var "
+  },
+  "author": "Victor Llamas",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.2.3",
+    "newman-reporter-htmlextra": "^1.21.0"
+  }
+}

@@ -1,0 +1,39 @@
+{
+	"id": "65238fa9-a45c-4396-806d-a5d18b8dfe78",
+	"values": [
+		{
+			"key": "partial_auth_error",
+			"value": "Accept partial authorization not valid for autocomplete payments.",
+			"enabled": true
+		},
+		{
+			"key": "payment_not_found_error",
+			"value": "Could not find payment with id: ",
+			"enabled": true
+		},
+		{
+			"key": "refund_not_found_error",
+			"value": "Invalid refund_id: ",
+			"enabled": true
+		},
+		{
+			"key": "payment_cancel_error",
+			"value": "is in state CANCELED, which is an invalid state for requested operation",
+			"enabled": true
+		},
+		{
+			"key": "amount_to_high_error_code",
+			"value": "AMOUNT_TOO_HIGH",
+			"enabled": true
+		},
+		{
+			"key": "resource_not_found_error_code",
+			"value": "NOT_FOUND",
+			"enabled": true
+		}
+	],
+	"name": "Wizeline Challenge 2 Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2021-05-31T01:15:12.626Z",
+	"_postman_exported_using": "Postman/8.5.1"
+}
