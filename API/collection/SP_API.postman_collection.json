@@ -364,7 +364,7 @@
 													"const currentDate = require('moment');",
 													"",
 													"pm.test(\"Validate create at date match with current date\", function(){",
-													"    pm.expect(jsonData[\"refund\"].created_at).to.contains(currentDate().format(\"YYYY-MM-DD\"));",
+													"    pm.expect(jsonData[\"refund\"].created_at).to.contains(currentDate().utc().format(\"YYYY-MM-DD\"));",
 													"});"
 												],
 												"type": "text/javascript"
